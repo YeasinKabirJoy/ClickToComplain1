@@ -24,3 +24,9 @@ class ajairamodel(models.Model):
 
     def __str__(self):
         return emni
+
+class ajairamodel2(models.Model):
+    emni = models.CharField(max_length= 200)
+
+    def __str__(self):
+        return emni
